@@ -51,6 +51,8 @@ const Home = () => {
         <Image
           src="/MyPhoto.jpg"
           alt="My Photo"
+          width={128} // Set width
+          height={128} // Set height
           className="w-32 h-32 rounded-full mb-4 border-4 border-gray-700 shadow-lg"
         />
         <h1 className="text-4xl font-bold">Roshan Yadav</h1>
