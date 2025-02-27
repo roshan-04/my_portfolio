@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -47,7 +48,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <main className="flex flex-col items-center justify-center flex-1 text-center py-24">
-        <img
+        <Image
           src="/MyPhoto.jpg"
           alt="My Photo"
           className="w-32 h-32 rounded-full mb-4 border-4 border-gray-700 shadow-lg"
